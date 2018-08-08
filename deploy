@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ~/PycharmProjects/scripts
+scp ./init_server root@159.89.135.88:/root/basic/
+echo "upload done"

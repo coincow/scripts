@@ -1,7 +1,11 @@
-#安装python3
+#!/bin/sh
 
+#安装python3
 apt-get update
 apt-get install python3.6
 
+#安装docker
+apt install docker.io
 
-
+#安装pip
+apt install python-pip
